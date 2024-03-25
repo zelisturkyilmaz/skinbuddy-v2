@@ -1,5 +1,13 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <NuxtLayout>
+      <UContainer>
+        <NuxtPage />
+      </UContainer>
+
+      <UModals />
+
+    </NuxtLayout>
+
   </div>
 </template>
